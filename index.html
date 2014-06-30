@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+        <title>OSCAD</title>
+        <link rel="shortcut icon" href="oscad_old/images/favicon.ico">
+        <link rel="stylesheet" href="./OSCAD_files/bootstrap.min.css" type="text/css" media="screen" charset="utf-8">
+        <link rel="stylesheet" href="./OSCAD_files/font-awesome.min.css" type="text/css" media="screen" charset="utf-8">
+        <link rel="stylesheet" href="./OSCAD_files/main.css" type="text/css" media="screen" charset="utf-8">
+    </head>
+    <body>
+        <div id="page-wrapper">
+            <div id="header-wrapper">
+                <div id="header-inner">
+                    <nav class="navbar navbar-default" role="navigation">
+                        <div class="container col-lg-12 col-md-12 col-sm-12">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                    <span title="" data-original-title="" class="sr-only">Toggle navigation</span>
+                                    <span title="" data-original-title="" class="icon-bar"></span>
+                                    <span title="" data-original-title="" class="icon-bar"></span>
+                                    <span title="" data-original-title="" class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="./OSCAD_files/OSCAD.html">
+                                    <img id="logo" src="./OSCAD_files/logo.png">
+                                    <span class="site-name">OSCAD</span>
+                                </a>
+                            </div> <!-- /.navbar-header -->
+                        </div> <!-- /.container -->
+                    </nav><!-- / .navbar -->
+                </div> <!-- /#header-inner -->
+            </div><!-- /#header-wrapper -->
+            <div id="content-wrapper">
+                <div id="content-inner">
+                    <div class="container col-lg-12 col-md-12 col-sm-12" id="content">
+                        <div class="table-responsive">
+                            <table class="table" rules="none" style="border-color: rgb(0, 0, 0); background-color: rgb(220, 220, 220);">
+                                <tr class="row">
+                                    <td class="col-lg-12 col-md-12 col-sm-12">
+                                        <!-- svg area -->
+                                        <svg  class="svg-main" tabindex="1" style="background-image:url('/home/niel/Desktop/final oscad/icons/back.png'); height: 450px;"; outline: none;" class="svg-main"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" >
+                                            <g id="viewport" transform="matrix(1,0,0,1,0,0)"></g>
+                                        </svg>
+                                    </td>
+                                </tr>
+                                <tr class="row">
+                                    <td class="toolbox-col col-lg-1 col2-md-12 col-sm-12" style="vertical-align: top;">
+                                        <!-- toolbox area -->
+                                        <img class="cursor" src="/home/niel/Desktop/final oscad/icons/cursor.png" width="40" height="40");" onclick="cursor()">
+                                        <img class="wire" src="/home/niel/Desktop/final oscad/icons/wire.GIF" width="40" height="40");" onclick="wire()" >
+                                        <img class="resistor" src="/home/niel/Desktop/final oscad/icons/resistor.GIF" width="40" height="40");" onclick="resistor()">
+                                        <img class="inductor" src="/home/niel/Desktop/final oscad/icons/inductor.GIF" width="40" height="40");" onclick="inductor()">
+                                        <img class="ground" src="/home/niel/Desktop/final oscad/icons/ground.GIF" width="40" height="40");" onclick="ground()">
+                                        <img class="capacitor" src="/home/niel/Desktop/final oscad/icons/capacitor.GIF" width="40" height="40");" onclick="capacitor()">
+                                    </td>
+                                </tr>
+                                <tr><td colspan="2"><div style="height: 18px;"></div></td></tr>
+                            </table>
+                        </div>
+                    </div><!-- /.container -->
+                </div><!-- /#content-inner -->
+            </div><!-- /#content-wrapper -->
+        </div><!-- /#page-wrapper -->
+        <script src="schematic.js" type="text/javascript"></script>
+        <script src="draw.js" type="text/javascript"></script>
+        <script src="SVGPan.js" type="text/javascript"></script>
+        <i>Copyright © 2014 Indian Institute Of Technology Bombay</i>
+    </body>
+</html>

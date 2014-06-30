@@ -1,0 +1,46 @@
+.navbar > .container .navbar-brand {
+	margin-left: 5px;
+	padding: 0px;
+	padding-top: 3px;
+}
+
+.navbar > .container .navbar-brand img#logo {
+	width: 42px;
+	height: 43px;
+	margin-right: 8px;
+	float: left;
+}
+
+.site-name {
+	font-size: 30px;
+	margin-top: 12px;
+	float:left;
+}
+
+h4.page-title {
+	font-weight: bold;
+}
+
+.navbar {
+	margin-bottom: 1px;
+}
+
+#content-wrapper #content-inner .container {
+	padding-left: 0px;
+	padding-bottom: 5px;
+	background: rgb(220, 220, 220);
+}
+
+ul.dropdown-menu li .fa {
+	margin-left: 10px;
+	width: 20px;
+}
+
+.toolbox-col {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#oscad-menus ul.dropdown-menu li {
+	cursor: pointer;
+}
